@@ -14,6 +14,8 @@ export const Gallery = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
+  align-items: center;
+  margin-top: 150px;
 `;
 
 export const Image = styled.img`
@@ -26,6 +28,7 @@ export const Image = styled.img`
 export const Title = styled.h1`
   color: burlywood;
   font-family: Ebrima, sans-serif;
+  margin-bottom: 60px;
 `;
 
 export const Header = styled.header`

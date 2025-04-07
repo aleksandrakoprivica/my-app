@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -31,8 +33,8 @@ body {
   min-height: 100vh;
 }
 
-/* Push footer to the bottom by expanding the main content */
+
 .page-content {
   flex-grow: 1;
-  padding-top: 60px; /* if your header is fixed */
+  padding-top: 180px;
 }
