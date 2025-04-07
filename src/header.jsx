@@ -13,13 +13,27 @@ export const Header = styled.header`
   z-index: 1000;
 `;
 
+export const PageLabel = styled.div`
+  a {
+    color: darksalmon;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: large;
+  }
+`;
 export function HeaderComponent() {
   return (
     <Header>
       <Logo src={logo} className="logo" alt="Logo" />
-      <a href="/">HOME</a>
-      <a href="/contact">CONTACT</a>
-      <a href="/about">ABOUT</a>
+      <PageLabel>
+        <a href="/">HOME</a>
+      </PageLabel>
+      <PageLabel>
+        <a href="/contact">CONTACT</a>
+      </PageLabel>
+      <PageLabel>
+        <a href="/about">ABOUT</a>
+      </PageLabel>
     </Header>
   );
 }

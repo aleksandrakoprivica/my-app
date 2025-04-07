@@ -6,7 +6,7 @@ export const ImageWrapper = styled.div`
 `;
 export const ImageLabel = styled.p`
   color: beige;
-  font-family: Constantia;
+  font-family: sans-serif;
   font-size: large;
 `;
 export const Gallery = styled.div`
@@ -26,7 +26,6 @@ export const Image = styled.img`
 export const Title = styled.h1`
   color: burlywood;
   font-family: Ebrima, sans-serif;
-  margin-bottom: 200px;
 `;
 
 export const Header = styled.header`
