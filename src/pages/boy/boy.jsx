@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  PageWrapper,
+  BoyPageWrapper,
   Avatar,
   BioSection,
   BioText,
@@ -12,7 +12,7 @@ import avatar from '../../assets/avatar.png';
 function BoyPage() {
   return (
     <>
-      <PageWrapper>
+      <BoyPageWrapper>
         <Avatar src={avatar} />
         <BioSection>
           <h1>Player: The Futuristic Boy</h1>
@@ -26,7 +26,7 @@ function BoyPage() {
         </LevelMeter>
 
         <Button>Challenge</Button>
-      </PageWrapper>
+      </BoyPageWrapper>
     </>
   );
 }

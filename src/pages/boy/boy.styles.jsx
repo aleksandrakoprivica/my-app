@@ -2,9 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 // Styled components for the BoyPage
-export const PageWrapper = styled.div`
+export const BoyPageWrapper = styled.div`
   color: white;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
